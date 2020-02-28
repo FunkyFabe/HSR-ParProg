@@ -2,55 +2,38 @@ package aufgabe3;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;
 
-class BoundedBuffer<T> {
-    private ArrayList<T> buffer;
-    private int insertIndex = 0;
-    private int removeIndex = 0;
-    private int size = 0;
-    private int capacity;
+class BoundedBuffeArrayBlockingQueuer<T> {
+    private ArrayBlockingQueue<T> buffer;
 
-    public BoundedBuffer(int capacity) {
-        this.capacity = capacity;
-        buffer = new ArrayList<T>(Collections.nCopies(capacity, null));
+    public BoundedBuffeArrayBlockingQueuer(int capacity) {
+        buffer = new ArrayBlockingQueue<T>(capacity);
     }
 
     public synchronized void put(T item) throws InterruptedException {
-        while (isFull()) {
+        while (!buffer.isEmpty()) {
             wait();
         }
-        buffer.set(insertIndex, item);
-        insertIndex = (insertIndex + 1) % capacity;
-        size++;
+        buffer.put(item);
         notifyAll();
     }
 
     public synchronized T get() throws InterruptedException {
-        while (isEmpty()) {
+        while (buffer.isEmpty()) {
             wait();
         }
-        T item = buffer.get(removeIndex);
-        removeIndex = (removeIndex + 1) % capacity;
-        size--;
         notifyAll();
-        return item;
-    }
-
-    private synchronized boolean isFull() {
-        return size == capacity;
-    }
-
-    private synchronized boolean isEmpty() {
-        return size == 0;
+        return buffer.take();
     }
 }
 
-class Producer extends Thread {
+class ArrayBlockingQueueProducer extends Thread {
     private final BoundedBuffeArrayBlockingQueuer<Long> buffer;
     private final int nofItems;
 
-    public Producer(BoundedBuffeArrayBlockingQueuer<Long> buffer, int nofItems) {
+    public ArrayBlockingQueueProducer(BoundedBuffeArrayBlockingQueuer<Long> buffer, int nofItems) {
         this.buffer = buffer;
         this.nofItems = nofItems;
     }
@@ -68,11 +51,11 @@ class Producer extends Thread {
     }
 }
 
-class Consumer extends Thread {
+class ArrayBlockingQueueConsumer extends Thread {
     private final BoundedBuffeArrayBlockingQueuer<Long> buffer;
     private final int nofItems;
 
-    public Consumer(BoundedBuffeArrayBlockingQueuer<Long> buffer, int nofItems) {
+    public ArrayBlockingQueueConsumer(BoundedBuffeArrayBlockingQueuer<Long> buffer, int nofItems) {
         this.buffer = buffer;
         this.nofItems = nofItems;
     }
@@ -89,7 +72,7 @@ class Consumer extends Thread {
     }
 }
 
-public class Simulation {
+public class SimulationArrayBlockingQueue {
     private static final int NOF_PRODUCERS = 1;
     private static final int NOF_CONSUMERS = 10;
     private static final int BUFFER_CAPACITY = 1;
@@ -123,12 +106,12 @@ public class Simulation {
 
 // 1 Producer, 1 Consumer, Bufferkapazität 1,
 // je 1‘000‘000 Elemente pro Producer und Consumer
-// Total time: 11954 ms
+// Total time: 11561 ms
 
 
 // 1 Producer, 10 Consumer, Bufferkapazität 1,
 // 1‘000‘000 Elemente von Producer und 100‘000 pro Consumer
-// Total time: 18894 ms
+// Total time: 17263 ms
 
 // 1 Produce, 10 Consumer ist langsamer
 
