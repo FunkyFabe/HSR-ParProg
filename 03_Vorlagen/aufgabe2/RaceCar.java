@@ -1,5 +1,7 @@
 package aufgabe2;
 
+import java.util.concurrent.BrokenBarrierException;
+
 public class RaceCar extends Thread {
 	private final AbstractRaceControl race;
 	private int laps;
@@ -27,7 +29,7 @@ public class RaceCar extends Thread {
 			race.waitForLapOfHonor();
 			printState("waves to audience");
 			simulateRaceLap();
-		} catch (InterruptedException e) {
+		} catch (InterruptedException | BrokenBarrierException e) {
 			throw new AssertionError(e);
 		}
 	}

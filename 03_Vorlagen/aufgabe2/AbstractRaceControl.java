@@ -1,5 +1,7 @@
 package aufgabe2;
 
+import java.util.concurrent.BrokenBarrierException;
+
 public abstract class AbstractRaceControl {
 	public final int CARS = 10;
 	public final int LAPS = 5;
@@ -13,10 +15,10 @@ public abstract class AbstractRaceControl {
 	}
 
 	// Called by race control
-	protected abstract void waitForAllToBeReady() throws InterruptedException;
+	protected abstract void waitForAllToBeReady() throws InterruptedException, BrokenBarrierException;
 
 	// Called by race cars
-	public abstract void readyToStart();
+	public abstract void readyToStart() throws BrokenBarrierException, InterruptedException;
 
 	// Called by race control
 	protected abstract void giveStartSignal();
@@ -35,7 +37,7 @@ public abstract class AbstractRaceControl {
 	// Called by race control and race cars
 	public abstract void waitForLapOfHonor() throws InterruptedException;
 
-	public void runRace() throws InterruptedException {
+	public void runRace() throws InterruptedException, BrokenBarrierException {
 		System.out.println("Preparing race...");
 		startAllEngines();
 		System.out.println("Race starts soon...");
