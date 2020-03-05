@@ -7,14 +7,18 @@ public class TestScenario {
 	
 	public static void main(String[] args) throws InterruptedException {
 		testSeries(1, 1, 5);
+		System.out.println("\n\n");
 		testSeries(5, 5, 5);
+		System.out.println("\n\n");
 		testSeries(1, 10, 5);
+		System.out.println("\n\n");
 		testSeries(100, 100, 5);
+		System.out.println("\n\n");
 		testSeries(1, 10, TOTAL_ELEMENTS);
 	}
 
 	private static void testSeries(int nofProducers, int nofConsumers, int bufferCapacity) throws InterruptedException {
-		System.out.println("TEST SERIES: " + nofProducers + " producers " + nofConsumers + " consumers (capacity " + bufferCapacity + ")");
+		System.out.println("TEST SERIES: " + nofProducers + " producers " + nofConsumers + " consumers (capacity " + bufferCapacity + ")\n");
 		test(new WarehouseWithMonitor(bufferCapacity), "unfair", nofProducers, nofConsumers, bufferCapacity);
 		test(new WarehouseWithSemaphore(bufferCapacity, false), "unfair", nofProducers, nofConsumers, bufferCapacity);
 		test(new WarehouseWithSemaphore(bufferCapacity, true), "fair", nofProducers, nofConsumers, bufferCapacity);
@@ -40,6 +44,6 @@ public class TestScenario {
 			thread.join();
 		}
 		long stopTime = System.currentTimeMillis();
-		System.out.println("Total time: " + (stopTime - startTime) + " ms");
+		System.out.println("Total time: " + (stopTime - startTime) + " ms\n");
 	}
 }
