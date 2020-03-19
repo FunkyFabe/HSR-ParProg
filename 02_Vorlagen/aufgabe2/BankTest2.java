@@ -11,20 +11,24 @@ class BankAccount {
         notifyAll();
     }
 
+    // returns true if successful, false if failed after timeout.
     public synchronized boolean withdraw(int amount, long timeOutMillis) throws InterruptedException {
-        long startTime = System.currentTimeMillis();
-        while (amount > balance) {
-            System.out.println("Starttime: " + System.currentTimeMillis());
-            System.out.println("Current: " + System.currentTimeMillis());
-            System.out.println("Diff: " + (System.currentTimeMillis() - startTime) + " \n");
-            if (System.currentTimeMillis() - startTime > timeOutMillis) {
-                System.out.println("Abort");
-                return false;
-            }
-            wait(timeOutMillis / 3);
+        if (timeOutMillis < 0) {
+            throw new IllegalArgumentException("timeOutMillis is negative");
         }
-        balance -= amount;
-        return true;
+        long startTime = System.currentTimeMillis();
+        long currentTime = startTime;
+        while (amount > balance && currentTime - startTime < timeOutMillis) {
+            // wait timeout period must be positive: therefore fix currentTime in temporary variable
+            wait(timeOutMillis - currentTime + startTime);
+            currentTime = System.currentTimeMillis();
+        }
+        if (amount <= balance) {
+            balance -= amount;
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public synchronized int getBalance() {
@@ -36,22 +40,25 @@ public class BankTest2 {
     private static final int NOF_CUSTOMERS = 10;
     private static final int START_BUDGET = 1000;
     private static final int NOF_TRANSACTIONS = 100;
-    private static final long TIME_OUT = 10;
 
     public static void main(String[] args) throws InterruptedException {
         var account = new BankAccount();
         var customers = new ArrayList<Thread>();
         var random = new Random(4711);
         for (int i = 0; i < NOF_CUSTOMERS; i++) {
-            int amount = random.nextInt(100);
             customers.add(new Thread(() -> {
+                int amount = random.nextInt(100);
                 for (int k = 0; k < NOF_TRANSACTIONS; k++) {
                     try {
-                        account.withdraw(amount, TIME_OUT);
+                        boolean success = account.withdraw(amount, 1);
+                        if (success) {
+                            account.deposit(amount);
+                        } else {
+                            System.out.println("Credit time out " + amount + " by " + Thread.currentThread().getName());
+                        }
                     } catch (InterruptedException e) {
-                        e.printStackTrace();
+                        throw new AssertionError();
                     }
-                    account.deposit(amount);
                 }
             }));
         }
@@ -62,6 +69,8 @@ public class BankTest2 {
         for (var customer : customers) {
             customer.join();
         }
-        System.out.println("Balance: " + account.getBalance());
+        if (account.getBalance() != START_BUDGET) {
+            throw new AssertionError("Incorrect final balance: " + account.getBalance());
+        }
     }
 }

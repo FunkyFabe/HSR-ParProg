@@ -7,7 +7,6 @@ public class CDLBasedRaceControl extends AbstractRaceControl {
     private CountDownLatch start = new CountDownLatch(1);
     private CountDownLatch raceFinished = new CountDownLatch(1);
     private CountDownLatch waitingForLapOfHonor = new CountDownLatch(CARS);
-    private boolean raceOver = false;
 
     @Override
     protected void waitForAllToBeReady() throws InterruptedException {
@@ -36,12 +35,11 @@ public class CDLBasedRaceControl extends AbstractRaceControl {
 
     @Override
     public boolean isOver() {
-        return raceOver;
+        return raceFinished.getCount() == 0;
     }
 
     @Override
     public void passFinishLine() {
-        raceOver = true;
         raceFinished.countDown();
         waitingForLapOfHonor.countDown();
 
