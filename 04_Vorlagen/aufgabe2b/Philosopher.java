@@ -70,3 +70,10 @@ class Philosopher extends Thread {
 		}
 	}
 }
+
+/*
+Das Problem könnte Starvation sein.
+Hat ein Philosoph (Thread) die linke Gabel, wartet er nicht darauf, bis er die rechte Gabel bekommt und gibt die linke Gabel wieder frei.
+=> Der Thread wartet also auf keine Resourcen. Der Philosophe käme nie zum Essen, wenn der Philosophe zu seiner Rechten immer am essen ist (rechte gabel benützt).
+Auch wenn man "faire" Semaphore einsetzen würde, bestände das Problem weiterhin.
+ */
