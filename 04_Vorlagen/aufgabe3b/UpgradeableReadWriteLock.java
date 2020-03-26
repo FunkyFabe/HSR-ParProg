@@ -4,7 +4,6 @@ import java.util.concurrent.Semaphore;
 
 public class UpgradeableReadWriteLock {
     private int readLocks = 0;
-    private boolean upgradeableReadLock = false;
     private boolean writeLock = false;
     private Thread upgradeThread;
 
@@ -13,7 +12,6 @@ public class UpgradeableReadWriteLock {
             wait();
         }
         readLocks++;
-        notifyAll();
     }
 
     public synchronized void readUnlock() {
@@ -22,23 +20,20 @@ public class UpgradeableReadWriteLock {
     }
 
     public synchronized void upgradeableReadLock() throws InterruptedException {
-        while (upgradeableReadLock || writeLock) {
+        while (upgradeThread != null || writeLock) {
             wait();
         }
-        upgradeableReadLock = true;
         upgradeThread = Thread.currentThread();
     }
 
     public synchronized void upgradeableReadUnlock() {
-        upgradeableReadLock = false;
+        upgradeThread = null;
         notifyAll();
     }
 
     public synchronized void writeLock() throws InterruptedException {
-        while (readLocks > 0 || upgradeableReadLock || writeLock) {
+        while (readLocks > 0 || upgradeThread != null || writeLock) {
             if (upgradeThread == Thread.currentThread()) {
-                // Upgrade
-                upgradeableReadLock = false;
                 break;
             }
             wait();
