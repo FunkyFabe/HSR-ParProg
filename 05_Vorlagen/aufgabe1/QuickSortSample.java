@@ -52,11 +52,30 @@ public class QuickSortSample {
 	}
 
 	public static void main(String[] args) {
-		var numberArray = createRandomArray(NOF_ELEMENTS);
+		long timeReference = referenceTest(createRandomArray(NOF_ELEMENTS));
+		long timeParallel = parallelTest(createRandomArray(NOF_ELEMENTS));
+
+
+		System.out.println("Time reference: " + timeReference + " ms");
+		System.out.println("Time parallel: " + timeParallel + " ms");
+		System.out.println("Speedup factor: " + (double)timeReference/(double)timeParallel);
+	}
+
+	public static long referenceTest(int[] numberArray) {
 		long startTime = System.currentTimeMillis();
 		quickSort(numberArray, 0, numberArray.length - 1);
 		long stopTime = System.currentTimeMillis();
-		System.out.println("Total time: " + (stopTime - startTime) + " ms");
+		long time = stopTime - startTime;
 		checkSorted(numberArray);
+		return time;
+	}
+
+	public static long parallelTest(int[] numberArray) {
+		long startTime = System.currentTimeMillis();
+		new ParallelQuickSort(numberArray, 0, numberArray.length - 1).invoke();
+		long stopTime = System.currentTimeMillis();
+		long time = stopTime - startTime;
+		checkSorted(numberArray);
+		return time;
 	}
 }
