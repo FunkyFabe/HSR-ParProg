@@ -1,0 +1,12 @@
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/bin/Debug/netcoreapp3.1/BankAccount.deps.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/bin/Debug/netcoreapp3.1/BankAccount.runtimeconfig.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/bin/Debug/netcoreapp3.1/BankAccount.runtimeconfig.dev.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/bin/Debug/netcoreapp3.1/BankAccount.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/bin/Debug/netcoreapp3.1/BankAccount.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.csprojAssemblyReference.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.csproj.CoreCompileInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.AssemblyInfoInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.AssemblyInfo.cs
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/ParProg-Testat-2/Aufgabe2/DotNet/BankAccount/obj/Debug/netcoreapp3.1/BankAccount.genruntimeconfig.cache

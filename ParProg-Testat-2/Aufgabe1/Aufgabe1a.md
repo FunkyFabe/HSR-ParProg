@@ -6,3 +6,13 @@
 
 
 
+
+
+
+
+Fragen:
+
+- Sind  Atomic Klassen  auch `volotile` ist Visibility gegeben?
+  - Java
+  - .NET
+- 
