@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Demo2_AsyncDownloadGUI.MainWindow"
+        Title="MainWindow" Height="350" Width="500">
+  <Grid>
+    <ListBox x:Name="urlListBox" Height="134" Margin="19,38,21,0" VerticalAlignment="Top">
+      <System:String>https://msdn.microsoft.com</System:String>
+      <System:String>https://www.google.com</System:String>
+      <System:String>https://www.bing.com</System:String>
+      <System:String>https://www.yahoo.com</System:String>
+      <System:String>https://www.facebook.com</System:String>
+    </ListBox>
+    <TextBox x:Name="urlEntryTextBox" Height="23" Margin="19,10,101,0" TextWrapping="Wrap" Text="https://www.concurrency.ch" VerticalAlignment="Top"/>
+    <Button x:Name="addButton" Content="Add" Margin="0,13,21,0" VerticalAlignment="Top" Click="AddButton_Click" HorizontalAlignment="Right" Width="75"/>
+    <Button x:Name="downloadButton" Content="Start Download" Margin="19,177,21,0" VerticalAlignment="Top" Click="DownloadButton_Click"/>
+    <TextBox x:Name="outputTextBox" Margin="19,202,21,10" TextWrapping="Wrap" Text=""/>
+  </Grid>
+</Window>

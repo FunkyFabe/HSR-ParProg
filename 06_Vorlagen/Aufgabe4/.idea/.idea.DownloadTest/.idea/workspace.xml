@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1194ee4c-4191-4988-9a3a-7a77309a05e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../06_Lösungen/Aufgabe2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_Task_Parallel_Library.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/.idea/.idea.MatrixMult/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/MatrixMult.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/ParallelMatrixMultiplication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/MatrixMult.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/MatrixMult.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/MatrixMult.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/MatrixMult.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe1/MatrixMult/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe2/.idea/.idea.ParallelQuickSort/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe2/ParallelQuickSort.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe2/ParallelQuickSort/ParallelQuickSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe2/ParallelQuickSort/ParallelQuickSort.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe2/ParallelQuickSort/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe3/CyclicTaskTest.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe3/CyclicTaskTest/CyclicTaskTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aufgabe3/CyclicTaskTest/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DownloadTest.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DownloadTest/DownloadTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DownloadTest/Program.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aAb2EsW5PVFQiINPGs34Bd68JQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1194ee4c-4191-4988-9a3a-7a77309a05e0" name="Default Changelist" comment="" />
+      <created>1586181136713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586181136713</updated>
+      <workItem from="1586181138959" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+</project>

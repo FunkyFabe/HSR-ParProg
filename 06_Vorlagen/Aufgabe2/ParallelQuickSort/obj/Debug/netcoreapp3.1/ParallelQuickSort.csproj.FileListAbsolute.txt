@@ -1,0 +1,12 @@
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/bin/Debug/netcoreapp3.1/ParallelQuickSort.deps.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/bin/Debug/netcoreapp3.1/ParallelQuickSort.runtimeconfig.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/bin/Debug/netcoreapp3.1/ParallelQuickSort.runtimeconfig.dev.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/bin/Debug/netcoreapp3.1/ParallelQuickSort.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/bin/Debug/netcoreapp3.1/ParallelQuickSort.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.csprojAssemblyReference.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.csproj.CoreCompileInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.AssemblyInfoInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.AssemblyInfo.cs
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe2/ParallelQuickSort/obj/Debug/netcoreapp3.1/ParallelQuickSort.genruntimeconfig.cache

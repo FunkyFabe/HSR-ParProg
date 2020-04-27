@@ -1,0 +1,15 @@
+﻿<Window x:Class="Pitfall5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pitfall5" Height="169" Width="171">
+    <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="113*"/>
+      <ColumnDefinition Width="15*"/>
+    </Grid.ColumnDefinitions>
+    <Button x:Name="calculationButton" Content="Calculate" Margin="10,48,10,0" VerticalAlignment="Top" Click="CalculationButton_Click" Grid.ColumnSpan="2"/>
+    <TextBox x:Name="inputTextBox" Height="23" Margin="10,10,9,0" TextWrapping="Wrap" Text="10000000000000061" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+    <Label x:Name="resultLabel" Content="" Margin="10,87,10,10" Grid.ColumnSpan="2" FontSize="16" FontWeight="Bold"/>
+
+  </Grid>
+</Window>

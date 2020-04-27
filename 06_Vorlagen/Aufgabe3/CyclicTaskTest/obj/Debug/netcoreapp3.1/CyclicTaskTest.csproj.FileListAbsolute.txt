@@ -1,0 +1,12 @@
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/bin/Debug/netcoreapp3.1/CyclicTaskTest.deps.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/bin/Debug/netcoreapp3.1/CyclicTaskTest.runtimeconfig.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/bin/Debug/netcoreapp3.1/CyclicTaskTest.runtimeconfig.dev.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/bin/Debug/netcoreapp3.1/CyclicTaskTest.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/bin/Debug/netcoreapp3.1/CyclicTaskTest.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.csprojAssemblyReference.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.csproj.CoreCompileInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.AssemblyInfoInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.AssemblyInfo.cs
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe3/CyclicTaskTest/obj/Debug/netcoreapp3.1/CyclicTaskTest.genruntimeconfig.cache

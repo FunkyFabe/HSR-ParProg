@@ -1,0 +1,8 @@
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/bin/Debug/netcoreapp3.1/DownloadTest.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/bin/Debug/netcoreapp3.1/DownloadTest.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/obj/Debug/netcoreapp3.1/DownloadTest.csprojAssemblyReference.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/obj/Debug/netcoreapp3.1/DownloadTest.csproj.CoreCompileInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/obj/Debug/netcoreapp3.1/DownloadTest.AssemblyInfoInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/obj/Debug/netcoreapp3.1/DownloadTest.AssemblyInfo.cs
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/obj/Debug/netcoreapp3.1/DownloadTest.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/06_Lösungen/Aufgabe4/DownloadTest/obj/Debug/netcoreapp3.1/DownloadTest.pdb
