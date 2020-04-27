@@ -1,0 +1,12 @@
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.deps.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.runtimeconfig.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.runtimeconfig.dev.json
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/bin/Debug/netcoreapp3.1/MatrixMult.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.csprojAssemblyReference.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.csproj.CoreCompileInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.AssemblyInfoInputs.cache
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.AssemblyInfo.cs
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.dll
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.pdb
+/Users/fabiangermann/Documents/HSR-GIT/HSR-ParProg/06_Vorlagen/Aufgabe1/MatrixMult/obj/Debug/netcoreapp3.1/MatrixMult.genruntimeconfig.cache
